@@ -1,0 +1,20 @@
+ADD San Jose,Philadelphia,74.1210419026,85.1592904042
+QUERY San Jose,Philadelphia
+QUERY Houston,San Diego
+ADD Houston,Phoenix,14.3669832607,31.0214455406
+QUERY Houston,Philadelphia
+QUERY Houston,Phoenix
+QUERY Phoenix,Houston
+ADD San Jose,Houston,71.6151578414,15.8962344907
+ADD Houston,Philadelphia,60.0795585201,83.4477112774
+QUERY San Jose,Philadelphia
+QUERY Houston,Philadelphia
+ADD San Jose,Los Angeles,28.441460362,13.718320511
+ADD Los Angeles,Philadelphia,18.1087905176,47.1133741454
+QUERY San Jose,Philadelphia
+ADD Houston,Los Angeles,40.7755269545,79.8232879003
+QUERY San Jose,Philadelphia
+QUERY San Jose,Philadelphia,Phoenix
+ADD Philadelphia,Los Angeles,28.441460362,
+QUERY Philadelphia,Los Angeles
+UNKNOWN something,else

@@ -1,0 +1,25 @@
+EDGE San Jose,Philadelphia,74.1210419026,85.1592904042
+QUERY San Jose,Philadelphia
+PATH 3666.59,San Jose,Philadelphia
+EDGE Houston,Phoenix,14.3669832607,31.0214455406
+QUERY Houston,Phoenix
+PATH 1146.15,Houston,Phoenix
+EDGE San Jose,Houston,71.6151578414,15.8962344907
+EDGE Houston,Philadelphia,60.0795585201,83.4477112774
+QUERY San Jose,Philadelphia
+PATH 3666.59,San Jose,Philadelphia
+PATH 4955.73,San Jose,Houston,Philadelphia
+QUERY Houston,Philadelphia
+PATH 3404.62,Houston,Philadelphia
+EDGE San Jose,Los Angeles,28.441460362,13.718320511
+EDGE Los Angeles,Philadelphia,18.1087905176,47.1133741454
+QUERY San Jose,Philadelphia
+PATH 2523.20,San Jose,Los Angeles,Philadelphia
+PATH 3666.59,San Jose,Philadelphia
+PATH 4955.73,San Jose,Houston,Philadelphia
+EDGE Houston,Los Angeles,40.7755269545,79.8232879003
+QUERY San Jose,Philadelphia
+PATH 2523.20,San Jose,Los Angeles,Philadelphia
+PATH 3666.59,San Jose,Philadelphia
+PATH 4955.73,San Jose,Houston,Philadelphia
+PATH 6242.47,San Jose,Houston,Los Angeles,Philadelphia

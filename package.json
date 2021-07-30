@@ -1,0 +1,17 @@
+{
+  "name": "pricepoint-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/solution.js",
+  "types": "dist/solution.d.ts",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "tsc && node dist/solution.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC"
+}

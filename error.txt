@@ -1,0 +1,7 @@
+MALFORMED QUERY,Houston,San Diego
+MALFORMED QUERY,Houston,Philadelphia
+MALFORMED QUERY,Phoenix,Houston
+MALFORMED QUERY,San Jose,Philadelphia,Phoenix
+MALFORMED ADD,Philadelphia,Los Angeles,28.441460362,
+MALFORMED QUERY,Philadelphia,Los Angeles
+MALFORMED UNKNOWN,something,else
