@@ -72,7 +72,7 @@ class EdgeDB {
         process.stdout.write('\n');
     }
     //this is our big bad boy algorithm to search
-    backtrack(current, destination, cost, seen, //we need this for cycles
+    backtrack(current, destination, cost, seen, //we need this for encountering cycles
     path, results) {
         if (current === destination) {
             results.push({ cost, path });
